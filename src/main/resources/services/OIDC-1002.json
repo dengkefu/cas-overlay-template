@@ -1,0 +1,11 @@
+{
+  "@class" : "org.apereo.cas.services.OidcRegisteredService",
+  "clientId": "udap",
+  "clientSecret": "udap-secret",
+  "serviceId" : "^(https|http|imaps)://10.248.190.141:8777/login",
+  "name": "OIDC",
+  "id": 1000,
+  "scopes" : [ "java.util.HashSet",
+    [ "profile", "email", "address", "phone", "offline_access", "displayName", "eduPerson" ]
+  ]
+}
